@@ -2,11 +2,11 @@
 
 Este repositorio contiene un script de automatización para configurar un entorno de desarrollo profesional en sistemas Linux (Debian/Ubuntu/Mint, Fedora/RHEL o Arch Linux). 
 
-Está diseñado para que, cada vez que instale una nueva distribución o configure un servidor, pueda tener mis herramientas listas en menos de 5 minutos.
+Está diseñado para que, cada vez que se instale una nueva distribución de Linux, se obtenga herramientas de desarrollo listas en menos de 5 minutos.
 
 ## ¿Qué incluye este entorno?
 
-El script de instalación (`install.sh`) configura automáticamente:
+El script de instalación (`shell.sh`) configura automáticamente:
 
 * **Neovim (v0.10+)**: Instalado mediante binarios oficiales para asegurar la última versión.
 * **LazyVim**: Una configuración de Neovim rápida y moderna con soporte para plugins.
@@ -22,13 +22,11 @@ Para configurar tu sistema desde cero, abre una terminal y ejecuta:
 
 ```bash
 # 1. Clonar el repositorio
-git clone https://github.com/TU_USUARIO/TU_REPO.git](https://github.com/TU_USUARIO/TU_REPO.git
-cd TU_REPO
+git clone https://github.com/emiliooarrig/mint-setup.git
+cd mint-setup/
 
 # 2. Dar permisos de ejecución
-chmod +x install.sh
+chmod +x shell.sh
 
 # 3. Ejecutar la instalación
-./install.sh
-
-
+./shell.sh
