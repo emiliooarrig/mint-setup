@@ -1,19 +1,18 @@
-# Mi Entorno de Desarrollo 
+# Entorno de Desarrollo 
 
-Este repositorio contiene un script de automatización para configurar un entorno de desarrollo profesional en sistemas Linux (Debian/Ubuntu/Mint, Fedora/RHEL o Arch Linux). 
+Este repositorio contiene scripts de automatización para configurar un entorno de desarrollo profesional en sistemas Linux (Fedora/RHEL o Arch Linux). 
 
-Está diseñado para que, cada vez que se instale una nueva distribución de Linux, se obtenga herramientas de desarrollo listas en menos de 5 minutos.
+Estan diseñados para que, cada vez que se instale una nueva distribución de Linux, se obtenga herramientas de desarrollo de software listas en menos de 5 minutos.
 
 ## ¿Qué incluye este entorno?
 
-El script de instalación (`shell.sh`) configura automáticamente:
+El script de instalación (`shell.sh` o `fedora.sh`) configura automáticamente:
 
 * **Neovim (v0.10+)**: Instalado mediante binarios oficiales para asegurar la última versión.
 * **LazyVim**: Una configuración de Neovim rápida y moderna con soporte para plugins.
 * **JetBrainsMono Nerd Font**: Esencial para ver iconos y glifos en la terminal.
-* **Herramientas de Sistema**: `git`, `curl`, `ripgrep`, `fd-find`, `unzip`, `build-essential`.
 * **Contenedores**: Instalación rápida de contenedores de Docker.
-* **Lenguajes y Servidores**: Soporte base para Python, PHP, MySQL y GCC (Compilador GNU de C++).
+* **Lenguajes y Servidores**: Soporte base para Python, PHP, MySQL y GCC (Compilador GNU de C / C++).
 * **Privacidad**: Instalación del servicio de `tor`.
 
 ## Cómo usar este repositorio
@@ -27,6 +26,8 @@ cd mint-setup/
 
 # 2. Dar permisos de ejecución
 chmod +x shell.sh
+chmod +x fedora.sh
 
 # 3. Ejecutar la instalación
 ./shell.sh
+./fedora.sh
